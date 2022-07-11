@@ -65,19 +65,20 @@
 }
 
 /* expriances sec  */
-
+.experiences{
+    background-color: #222A36;
+}
 .experience{
     display: flex;
     height: 50vh;
-    
-
 }
 .experience h1{
     font-size: 6rem;
-    color: #1e2386;
+    color: #7ae73b;
 }
 .experience h2{
     font-size: 4rem;
+    color: #fff;
 }
 .e-left-text{
     display: flex;
@@ -95,8 +96,8 @@
     
 }
 .e-box i{
-    color: rgb(0, 0, 0);
     font-size: 4rem;
+    margin-bottom: 20px;
 }
 .boxs{
     color: black;
@@ -119,7 +120,10 @@
     justify-content: center;
     text-align: center;
     border-radius: 10px;
+    background-color: #2f3038;
+    color: #fff;
 }
-.e-box.e-box::nth-child(1n+2){
-    background-color: black;
+.e-box.e-box:nth-child(2n+1){
+    background-color: #f0e8e8c0;
+    color: #03045E;
 }
