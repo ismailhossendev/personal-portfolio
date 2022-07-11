@@ -43,3 +43,22 @@
     padding-left: 50px;
     margin-right: -30px;
 }
+/* header done */
+
+/* skill sec  */
+.skills{
+    background-color: black;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+.s-icon{
+    width: 54.88px;
+    height: 83.3;
+    font-size: 8.3rem;
+    color: rgba(255, 255, 255, 0.507);
+}
