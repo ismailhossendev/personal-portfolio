@@ -1,0 +1,45 @@
+.headers{
+    height: 80vh;
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
+}
+.h-title h1{
+    font-size: 9rem;
+    font-weight: bold;
+    color: #fff;
+}
+.h-text p{
+    color: rgba(255, 255, 255, 0.5);
+    height: 108px;
+    width: 400px;
+    font-size: 2rem;
+}
+#h-sub-text{
+    font-size: 2rem;
+    font-weight:bold ;
+    color:#fff; 
+    margin: 0 5px;
+}
+.h-button a{
+    font-size: 2rem;
+    color: #fff;
+    padding: 15px 40px;
+}
+#email-me-btn{
+    background: #676CDB;
+    text-decoration: none;
+}
+.d-icon{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 50px;
+    margin-right: -30px;
+}
