@@ -1,11 +1,12 @@
+
 .headers{
-    height: 80vh;
+    height: 90vh;
     background-image: url(../images/hero-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .header{
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +53,7 @@
 
 .skill{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 200px;
     align-items: center;
 }
@@ -61,4 +62,64 @@
     height: 83.3;
     font-size: 8.3rem;
     color: rgba(255, 255, 255, 0.507);
+}
+
+/* expriances sec  */
+
+.experience{
+    display: flex;
+    height: 50vh;
+    
+
+}
+.experience h1{
+    font-size: 6rem;
+    color: #1e2386;
+}
+.experience h2{
+    font-size: 4rem;
+}
+.e-left-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 10%;
+    margin: 0 5% 0 0;
+}
+.e-right-content{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.e-box i{
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+}
+.boxs{
+    color: black;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    
+
+}
+.e-box h3{
+    font-size: 2.5rem;
+}
+.e-box{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.e-box.e-box::nth-child(1n+2){
+    background-color: black;
 }
