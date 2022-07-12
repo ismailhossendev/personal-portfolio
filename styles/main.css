@@ -127,3 +127,83 @@
     background-color: #f0e8e8c0;
     color: #03045E;
 }
+/* end   */
+.testimonials{
+    background-color: #222a36e5;
+}
+.testimonial{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.img-text{
+    width: 65%;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+.t-text h1{
+    font-size: 6rem;
+    margin-left: 10px;
+    color: #fff;
+}
+.t-text p{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: #fff;
+}
+.s-text h1{
+    font-size: 5rem;
+    color: #676CDB;
+}
+.s-text h2{
+    font-size: 3rem;
+    color: #fff;
+    
+}
+.clients-satis{
+    margin-left: 200px;
+}
+.t-i{
+    font-size: 3rem;
+    color: #fff;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+.footer{
+    height: 50vh;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+.f-left{
+    width: 30%;
+}
+.f-left h1{
+    font-size: 10rem;
+}
+.f-icons{
+    display: flex;
+    font-size: 6rem;
+    margin-left: -20px;
+}
+.f-icons i{
+    margin: 20px;
+}
+.f-right input{
+    border: none;
+    outline: none;
+    margin: 30px 0;
+    color: #fff;
+    background-color: #000;
+}
+.f-right{
+    font-size: 3rem;
+    width: 600px;
+}
+footer{
+    background-color: #000;
+}
